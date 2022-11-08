@@ -104,4 +104,23 @@
 
     --------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
+    05.AUTO-JOIN ( SELF JOIN ) - É uma auto junção de uma tabela consigo mesma.
+
+    NA PRATICA: 
+
+    SELECT a.nome AS consumidor1, b.nome AS consumidor2 FROM Consumidor AS a INNER JOIN Consumidor AS b ON a.id <> b.id AND a.cidade = b.cidade;
+
+    --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    06.JUNÇÂO BASEADA COM COMPARAÇÂO (EQUI JOIN) - É um tipo específico de junção onde é feita uma comparação para uma junção.
+
+    NA PRÁTICA:
+
+    SELECT * FROM clientes JOIN profissao ON cliente.id_profissao = profissao.id;
+
+    --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    07.JUNÇÂO NATURAL ( NATURAL JOIN ) - O NATURAL JOIN é só um facilitador. Ele não é mais rápido ou faz nada melhor, ele apenas 
+    permite uma sintaxe mais curta se a junção é simples, traz todos os registros da tabela de acordo com os atributos em comum.
+
+    SELECT * FROM Clientes NATURAL JOIN profissoes;
     

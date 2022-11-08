@@ -1,0 +1,67 @@
+O que são funções de Agregação?
+    As funções de agregação servem para fazer operação em BANCO DE DADOS facilitando alguns códigos que precisariam 
+    de um tempo pra fazer na linguagem de programação e poden ser feitas no BD para uma autonomia maior.
+
+Funções:
+
+    MAX - Verifica qual o maior valor da coluna desejada.
+
+    NA PRATICA:
+
+    SELECT MAX(preco_venda) FROM produto;
+    SELECIONE O MAIOR VALOR da COLUNA preco_venda da TABELA produto;
+
+    SELECT id_categoria, MAX(preco_venda) FROM produtos GROUP BY id_categoria; - Agrupando por categoria.
+
+    Neste exemplo estamos buscando por categoria o maior valor de venda por categoria e agrupando por id de categoria.
+    EX:
+    categoria eletronico - maior valor de venda
+    categoria eletrodomesticos - maior valor de venda
+
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    MIN - Verifica o menor valor da coluna.
+
+    Funciona parecido com o MAX porém o MIN pega o menor valor da coluna desejada.
+
+    SELECT MIN(preco_venda) FROM produtos;
+
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    SUM - Faz a soma da coluna solicitada.
+
+    SELECT SUM(preco_venda) FROM produtos WHERE desc = 'computador';
+
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    AVG - Faz a média aritméticra da coluna.
+
+    NA PRÁTICA:
+
+    SELECT id_categoria, AVG(preco_venda) FROM produtos GROUP BY id_categoria; - vai agrupar a média de venda por categoria.
+
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ROUND - Serve para arredondar os valores de acordo com as casas decimais solicitadas.
+
+    NA PRÁTICA:
+
+    SELECT ROUND(MAX(preco_venda,2)) FROM produtos;
+
+    Nesse caso teremos 2 casas decimais após a virgula 
+
+    Ex:
+    valor = 20,021548
+    
+    resultado :
+    valor = 20,02
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   COUNT - Serve para contar a quantidade de linhas que temos com aquele mesmo valor solicitado.
+
+   NA PRÁTICA: 
+
+   SELECT COUNT(p.nome) FROM produtos AS p WHERE descricao = 'computador';
+
+   OBS : Se usarmos o * para solicitar a contagem os valores NULL também serao incluidos na contagem, se especificar 
+   a contagem vem limpa.
+
+   
+
+
+
