@@ -51,6 +51,7 @@ Funções:
     
     resultado :
     valor = 20,02
+    
    --------------------------------------------------------------------------------------------------------------------------------------------------------------------
    COUNT - Serve para contar a quantidade de linhas que temos com aquele mesmo valor solicitado.
 
@@ -61,7 +62,7 @@ Funções:
    OBS : Se usarmos o * para solicitar a contagem os valores NULL também serao incluidos na contagem, se especificar 
    a contagem vem limpa.
 
-   
+
 
 
 
