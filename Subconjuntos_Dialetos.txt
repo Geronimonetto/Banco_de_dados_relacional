@@ -1,0 +1,20 @@
+* Subconjuntos de linguagem
+
+	- DML - Data Manipulation Language - manipula os dados, inserindo, atualizando ou excluindo
+	- DDL - Data definition language - Criar, alterar e excluir tabelas
+	- DTL - Data Transiction language - Confirmar alterações ou cancelar
+	- DCL - Data Central language - definir quem pode fazer o que na tabela ou em colunas
+	- DQL - Data Query language - onde acontece toda a consulta de dados
+
+
+* Dialetos da linguagem
+
+	- Google Big Query - StandardSQL
+	- Oracle - PL/SQL
+	- PosgreSQL - PL/pgSQL
+	- SQLServer - T-SQL
+
+* Estrutura básica do SQL SELECT
+	
+	- SELECT coluna1 (id), coluna2(age) FROM nomedabasededados.nomedatabela
+	- SELECT MAX(age) FROM nomedabasededados.nomedatabela
