@@ -1,2 +1,64 @@
-Significado de SQL
-	- Structured Query Language
+1.Significado de SQL
+   - Structured Query Language
+
+2.O que é um banco de dados?
+   - É um conjunto de dados
+	Exemplos:
+	1. Tabelas - Planilha com dados organizados em tabelas
+	2. Caderno de registros - transações registradas em um caderno
+	3. Coleções - Documentos armazenados em coleção de dados
+
+3.O que são SGBD's?
+   - São sistemas gerenciadores de banco de dados
+	Eles Armazenam, Organizam, Atualizam, Acessibilizam e protegem 
+	os dados
+   - Tipos de SGBD's
+	- Oracle
+	- PostgreSQL
+	- SQLite
+	- MariaDB
+	- Cassandra
+	- MySQL
+	- MongoDB
+
+4. Tipos de banco de dados
+   - SQL 
+	Dados organizados em tabelas
+	Tabelas contem registros
+	Tabelas podem se relacionar entre si
+	Dados são estruturados
+	Estruturas necessitam de esquemas
+   - NoSQL
+	Dados são organizados em coleções
+	Coleções contém documentos
+	Coleção não se relacionam
+	Dados são semi ou não estruturados
+	Estruturas geralmente são flexíveis
+
+5. Chaves Primárias e Secundárias
+   - Chaves 
+	- ID - Identificador único de uma tabela
+	- As chaves primárias são únicas, são os identificadores (id) de 
+	cada usuário ou qualquer que seja em questão.
+	- As chaves estrangeiras são as chaves primárias de outra tabela 
+	presente na tabela em questão.  
+
+   Exemplo: 
+	
+	Chave primária
+
+	ID	AGE	CITY
+	1	36	São Paulo
+	2	23	Rio de Janeiro
+	3	68	Manaus
+
+	Chave secundária
+
+	ID	USERS_ID	ITEM		PRICE
+	1	2		BOLACHA		2
+	2	2		REFRIGERANTE	6.5
+	3	1		BETERRABA	0.95
+
+
+
+
