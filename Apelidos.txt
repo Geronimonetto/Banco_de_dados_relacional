@@ -1,0 +1,13 @@
+Apelidos
+
+	• Nome temporário 
+	
+	• Pode facilitar digitação
+	
+	• Pode facilitar leitura
+	
+	• Importante para quando há mais de uma tabela
+	
+	• Comando AS (de Alias)
+	
+	Duração da Consulta (Query)
