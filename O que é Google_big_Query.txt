@@ -1,0 +1,17 @@
+O que é Google BigQuery?	
+
+
+	- É um Data Warehouse ou seja um armazém de dados, servindo principalmente para consulta de dados para analistas e cientistas, e também machine learning.
+	
+	- Serverless ( Armazenamento em nuvem ) - não precisa de um servidor para rodar.
+
+	- Grande quantidade de dados
+
+	- Rápido
+
+	- Barato ( com cotas grátis)
+
+	- Apresenta conexão com outros produtos do google 
+		○  Para armazenamento 10GB por mês são grátis
+		○ O primeiro 1 TB de consulta é grátis
+		○ Apresenta conexão com datastudio, lokerstudio, plataforma de dashboard.
