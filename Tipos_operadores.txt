@@ -1,0 +1,33 @@
+
+Operadores
+
+	• Aritméticos 
+	 
+		○ ( + ) Soma
+		○ ( - ) Subtração
+		○ ( * ) Multiplicação
+		○ ( / )  Divisão
+	
+	• Comparação
+	
+		○ ( = ) Igual
+		○ ( <> ) ou ( ! ) Diferente
+		○ ( >= ) Maior ou igual
+		○ ( <= ) menor ou igual
+		○ ( > ) Maior
+		○ ( < ) Menor
+		○ ( between ) entre
+		○ ( like ) como
+		○ ( in ) está contido
+	
+	• IS
+	
+		○ ( is null ) é nulo
+		○ ( is true ) é verdadeiro
+		○ ( is false ) é falso
+	
+	• Lógicos
+	
+		○ ( NOT ) não
+		○ ( AND ) e
+		○ ( OR ) ou

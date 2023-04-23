@@ -1,0 +1,44 @@
+#Operadores aritméticos
+SELECT
+  2+2 as soma, 5-2 as subtracao, 5*2 as mutiplicacao, 5/2 as divisao;
+
+#Operador comparação
+SELECT
+  * 
+FROM ecommerce.customers
+WHERE first_name = "Mariana";
+
+#Between
+SELECT
+  *
+FROM ecommerce.customers
+WHERE id between /* Entre */ 1 and 90;
+
+#in
+SELECT
+  name
+FROM ecommerce.categories
+Where id in /*Está contido */ (1,3,5);
+
+#Like
+SELECT
+  id
+From ecommerce.categories
+WHERE name like "Brinquedos%";
+
+#is null, is not null
+SELECT 
+  *
+FROM ecommerce.customers
+WHERE state is null;
+
+SELECT 
+  *
+FROM ecommerce.customers
+WHERE state is not null;
+
+#is true, is not true/is false
+SELECT
+  *
+FROM `bigquery-public-data.chicago_crime.crime` #Utilizando dados publicos.
+Where arrest is true;
