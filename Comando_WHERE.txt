@@ -1,0 +1,23 @@
+Comandos de Restrição - comandos para filtrar valores
+
+	• WHERE ( onde...)
+	
+	• Filtro
+	
+	• Para Linhas
+
+# WHERE - Exemplo
+
+select
+  *
+FROM ecommerce.items as i
+WHERE i.quantity between 2 and 4;
+
+SELECT 
+  *
+FROM ecommerce.customers as c
+WHERE (c.state = "Acre" or c.state = "São Paulo") and c.street is not null;
+
+os parênteses deve vir para separar uma condição de outra, nesse exemplo acima poderia parecer que a condição sem parênteses seria ser de são paulo e não nulo, com parênteses a condição vira ser do acre e de são paulo não nulos.
+
+
