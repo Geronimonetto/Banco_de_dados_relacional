@@ -1,0 +1,27 @@
+Comandos condicionais
+
+CASE
+
+	• CASE WHEN ... THEN ... END ( Caso que... então ... fim)
+	
+	• 1 ou mais 
+	
+	• Avalia somente o primeiro caso verdadeiro.
+
+IF
+
+	• IF( COND, RESV, RESF)
+	
+	• Se COND ( condição ) for verdadeira, retorna RESV ( resultado se verdadeiro), caso seja falsa retorna RESF (resultado se falso).
+	
+	• Is True ( É Verdadeiro )
+	
+	• Is False ( é Falso )
+
+COALESCE
+	
+	• COALESCE (EXP1, ... , EXPN)
+	
+	• Retorna a primeira expressão não nula.
+
+
