@@ -1,0 +1,32 @@
+Funções de Agregação
+	
+	• Realizam cálculos gerais ou em grupos de valores
+	
+	• Podem reduzir informações por ex: para 1 linha
+
+	• Excelentes para agrupar informações
+
+	• Retornam um único resultado
+
+		Podem ser usadas com distinct para considerar apenas valores únicos
+
+
+	COUNT
+
+		• Retorna o número de linhas de um grupo de valores ou expressão 
+
+	MAX
+
+		• Retorna o valor máximo presente em um grupo de valores ou expressão
+
+	MIN 
+
+		• Retorna o valor mínimo presente em um grupo de valores ou expressão
+
+	SUM 
+
+		• Retorna a soma de um grupo de valores ou expressão
+
+	AVG 
+
+		• Retorna a média de um grupo de valores ou expressão
