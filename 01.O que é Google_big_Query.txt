@@ -14,4 +14,4 @@ O que é Google BigQuery?
 	- Apresenta conexão com outros produtos do google 
 		○  Para armazenamento 10GB por mês são grátis
 		○ O primeiro 1 TB de consulta é grátis
-		○ Apresenta conexão com datastudio, lokerstudio, plataforma de dashboard.
+		○ Apresenta conexão com datastudio, lokerstudio, plataforma de dashboard
